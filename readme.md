@@ -1,7 +1,26 @@
 
-简单的浏览器登录爆破工具 -- by NOVASEC   
+# 简单的浏览器登录爆破工具 -- by NOVASEC   
 
-Python3 was used !!!
+
+# 必备
+
+1、你需要一个Chrome浏览器
+
+2、你需要一个chromedriver
+
+Chrome与Chromedriver版本对应表（最新）【附下载链接】_蔚蓝星辰mic的博客-CSDN博客
+
+https://blog.csdn.net/weixin_45532870/article/details/106327359
+
+
+
+# 命令示例:
+
+python3 brute-selenium.py -lu http://xxxxx/login.html --user_name suLoginname  --pass_name suDwp --button_class dlButtonId -bcp "D:\xxxx\Chrome\chrome.exe" -bdp "chromedriver\chromedriver_win32_96.0.4664.45.exe"   -ud username.txt -pd password.txt 
+
+# 使用方法
+
+Python3 was used !!! 应该也支持python2环境
 
 usage: brute-selenium.py [-h] [-bh BROWSER_HEADLESS] [-bp BROWSER_PROXY]
                          [-bua BROWSER_USERAGENT] [-bud BROWSERUSERDIR]
