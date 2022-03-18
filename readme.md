@@ -1,5 +1,12 @@
 
-# 简单的浏览器登录爆破工具 -- by NOVASEC   
+# 简单的模拟浏览器进行登录爆破工具 -- by NOVASEC   
+
+细节参考:
+
+Python实现简约的selenium登录爆破框架
+
+https://mp.weixin.qq.com/s/qLmEp8KXmYYyGaPkLWGwAw
+
 
 # Todo
 
